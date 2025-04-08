@@ -5,14 +5,18 @@ export const DonateCardSC = styled.div`
   display: flex;
   flex-direction: column;
   width: 300px;
+  gap: 4px;
 
   align-items: center;
 `;
 
 export const CardStepImg = styled.img`
   position: relative;
-  width: 300px;
-  height: 230px;
+  width: 290px;
+  height: 220px;
+  border-radius: 10px;
+  contain: content;
+  object-fit: inherit;
 `;
 export const CardStepText = styled.div`
   width: 290px;

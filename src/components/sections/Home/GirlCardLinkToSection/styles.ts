@@ -11,21 +11,24 @@ export const ContainerGirlCardLinkToSection = styled.a`
   flex-direction: column;
   align-items: center;
   padding: 16px;
+  font-weight: bold;
+  text-decoration: none !important;
 
   cursor: pointer;
 
   :hover {
-    font-size: 18.5px;
+    font-size: 28px;
     transition: font-size 0.1s ease-in;
+    text-decoration: none !important;
   }
 `;
 
 export const TextLink = styled.p`
   color: ${colors.secondary_color_green_37B0CB};
-  font-size: 18px;
+  font-size: 24px;
   padding-top: 10px;
-  font-family: "Architects Daughter" !important;
   user-select: none;
+  font-weight: 900 !important;
 `;
 
 export const JoanaSvgSC = styled(Joana)`
@@ -38,6 +41,7 @@ export const JoanaSvgSC = styled(Joana)`
     cursor: pointer;
   }
 `;
+
 export const JessicaSvgSC = styled(Jessica)`
   height: 240px;
   @media (max-width: 1400px) {

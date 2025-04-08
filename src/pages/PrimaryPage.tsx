@@ -9,7 +9,7 @@ const PrimaryPage = () => {
         BackTitle="BORA?"
         Color="White"
       />
-      <div className="row justify-content-center pb-5 containerGirlsCardLinkToSection">
+      <div className="row justify-content-center pb-5 containerGirlsCardLinkToSection" style={{boxSizing: "border-box"}}>
         <GirlCardLinkToSection
           TxtLink="COMO RECEBER"
           GirlName="Jessica"

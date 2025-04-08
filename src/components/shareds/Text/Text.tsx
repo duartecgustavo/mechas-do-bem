@@ -11,6 +11,7 @@ export interface ITextProps {
   copy?: boolean;
   textgap?: any;
   withtextmark?: string;
+  weight?: string;
 }
 
 const Text = ({
@@ -19,9 +20,10 @@ const Text = ({
   color,
   size,
   align,
+  weight,
   family,
   style,
-  withtextmark
+  withtextmark,
 }: ITextProps) => {
   function copyToClipboard() {
     if (copy && children) {
@@ -35,6 +37,7 @@ const Text = ({
         color={color}
         size={size}
         align={align}
+        weight={weight}
         family={family}
         style={style}
         onClick={copyToClipboard}

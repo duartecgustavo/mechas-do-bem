@@ -1,14 +1,10 @@
 import {
-  LogoBigLar,
   LogoClaro,
   LogoCosan,
   LogoDrAgora,
   LogoMsd,
   LogoNatura,
   LogoSecon,
-  LogoStudio,
-  LogoTokyoMarine,
-  LogoYpiranga,
 } from "@/assets/Supporters";
 import styled from "styled-components";
 
@@ -29,15 +25,6 @@ export const ContainerSupportersSC = styled.div`
   );
 `;
 
-export const LogoBigLarSC = styled(LogoBigLar)`
-  padding: 10px;
-  height: 120px;
-  transition: transform 0.4s;
-  &:hover {
-    transform: scale(1.25);
-    cursor: cell;
-  }
-`;
 export const LogoClaroSC = styled(LogoClaro)`
   padding: 10px;
   height: 120px;
@@ -84,33 +71,6 @@ export const LogoNaturaSC = styled(LogoNatura)`
   }
 `;
 export const LogoSeconSC = styled(LogoSecon)`
-  padding: 10px;
-  height: 120px;
-  transition: transform 0.4s;
-  &:hover {
-    transform: scale(1.25);
-    cursor: cell;
-  }
-`;
-export const LogoStudioSC = styled(LogoStudio)`
-  padding: 10px;
-  height: 120px;
-  transition: transform 0.4s;
-  &:hover {
-    transform: scale(1.25);
-    cursor: cell;
-  }
-`;
-export const LogoTokyoMarineSC = styled(LogoTokyoMarine)`
-  padding: 10px;
-  height: 120px;
-  transition: transform 0.4s;
-  &:hover {
-    transform: scale(1.25);
-    cursor: cell;
-  }
-`;
-export const LogoYpirangaSC = styled(LogoYpiranga)`
   padding: 10px;
   height: 120px;
   transition: transform 0.4s;
