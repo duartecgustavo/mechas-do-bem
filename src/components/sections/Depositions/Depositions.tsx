@@ -54,9 +54,6 @@ const Depositions = () => {
       console.error("Erro ao enviar depoimento:", error);
     }
   };
-
-  console.log(isMobile);
-  console.log("containerDepositionsOpen", containerDepositionsOpen);
   return (
     <>
       <BeautyTitle FrontTitle="Depoimentos" BackTitle="FALE!" Color="White" />

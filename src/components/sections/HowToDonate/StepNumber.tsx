@@ -1,15 +1,15 @@
 import { BoxRoundedNumberSC } from "./styles";
 import { Text } from "@/components/shareds";
 
-interface ICardNumberProps {
+interface IStepNumberProps {
   number: any;
 }
 
-const CardNumber = ({ number }: ICardNumberProps) => {
+const StepNumber = ({ number }: IStepNumberProps) => {
   return (
     <>
       <BoxRoundedNumberSC>
-        <Text size="40px" color="White" family="Arbutus">
+        <Text size="18px" color="White" family="Arbutus">
           {number}
         </Text>
       </BoxRoundedNumberSC>
@@ -17,4 +17,4 @@ const CardNumber = ({ number }: ICardNumberProps) => {
   );
 };
 
-export default CardNumber;
+export default StepNumber;
