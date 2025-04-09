@@ -1,5 +1,4 @@
 // eslint-disable-next-line no-unused-vars
-import { Text } from "../../../shareds";
 import {
   ContainerGirlCardLinkToSection,
   JaquelineSvgSC,
